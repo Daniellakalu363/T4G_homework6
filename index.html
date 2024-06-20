@@ -4,7 +4,7 @@
    
     <script src="https://kit.fontawesome.com/fb36bf3ab4.js" crossorigin="anonymous"></script>
     <style>
-        .raw{background-color: blueviolet; border-radius: 20px; margin: 30px;
+        .raw{background-color: white; border-radius: 20px; margin: 30px;
         font-size: larger; padding: 30px;}
         div{background-image: url(image/image1.jpg) ;
         height: 200px;
@@ -21,6 +21,9 @@
         justify-content: center;
         align-items: center;
         padding: 20pt 30pt;
+        }
+        body{
+            background: rgb(30, 180, 123);
         }
         button{
            background-color: aliceblue;
@@ -49,14 +52,17 @@
             text-align: right;
             padding: 5px;
             font-family: Arial, Helvetica, sans-serif;
+            
 
          }
          nav ul{
             list-style-type: none;
+            justify-content: flex-end;
          }
          nav ul li{
             display: inline-block;  
             padding: 5px 30px;
+            
 
          }
          nav a{
@@ -67,24 +73,31 @@
          nav :hover{
            color: black;
          }
-         .footer{
-            display: flex;
-            justify-content: space-between;
+         .icon-container{
+            display: inline-flex;
+            margin-right: 20px;
             align-items: center;
             background-color: beige;
-            flex-wrap: wrap;
-
+            letter-spacing: 100px;
+            justify-content: center;
+            
+            
          }
          .logo img{
-            width: 30px;
-            height: 30px;
-            margin-right: auto;
-            flex-basis: 20%;
+            width: 200px;
+            height: 50pt;
+            left: 50px;
+            position: absolute;
+            top: 3px;
+            border-radius: 50%;
+            justify-content: flex-end;
+
             
          }
          .container{
             list-style: none;
             display: flex;
+            
 
          }
          .iteams{
@@ -92,7 +105,9 @@
             padding-top: 5px;
          }
          ul .list_iteams{
-            display: inline-block
+            display: inline-block;
+            justify-content: flex-end;
+
          }
          .big-image{
             display: flex;
@@ -113,6 +128,27 @@
             border-style: initial;
             
          }
+         .newsletter{
+            display: flex;
+            justify-content: center;
+            background-color: indigo;
+            padding: 20pt 30pt;
+            text-align: left;
+         }
+         .form{
+            background-color: aqua;
+            color: black;
+            padding: 5pt 10pt;
+            margin: 10px;
+         }
+         .fonts{
+            display: flex;
+            justify-content: flex-end;
+            gap: 50pt;
+         }
+         .signup{
+            text-align: center;
+         }
          
     
     </style>
@@ -125,7 +161,9 @@
 <body>
     <nav>
       <ul class="container">
-         <img src="https://images-platform.99static.com/JqhuFWNViTS5bW_8CMR1pJesSkw=/0x0:1134x1134/fit-in/900x675/99designs-contests-attachments/89/89026/attachment_89026090" width="100" alt="" class="logo img">
+         <section class="logo img">
+            <img src="https://th.bing.com/th/id/OIP.DmYfglfLQV2KTu-LQFjSAQHaHa?rs=1&pid=ImgDetMain" alt="">
+      </section>
             <li class="iteams"><a href="index.html">Home</a></li>
             <li class="iteams"><a href="pages/product.html">product</a></li>
             <li class="iteams"> <a href="pages/About Us.html">About Us</a></li>
@@ -180,29 +218,38 @@
             </section>
             </section>
 
-            <aside class="text-middle">
-            <h2 style="color: black;">NEWSLETTER</h2>
-            <h4 style="text-align: left;">Would you like to recieve monthly information about our products and services?</h4>
-            <h4 style="vertical-align: middle;">Sign up here <i class="fa-solid fa-arrow-right"></i></h4>
-             <aside style="color: black;text-align: right;flex-wrap: wrap;">
-             <form action="">
-               <label for="">Email:</label>     
-               <input type="email">
+            <section class="newsletter">
+            <section><h2>NEWSLETTER</h2>
+            Would you like to recieve monthly information about our products and services?
+            Sign up here <i class="fa-solid fa-arrow-right"></i>
+            </section>
+            <section>
+             <form action="" class="form">
+               <label for="email">Email:</label>     
+               <input type="email" name="" id="" required>
+               <!-- <button type="submit">sign up here</button> -->
+                <input type="submit" value="Subscribe">
                </form>
-               </aside>
+            </section>
+            </section>
                                                                                                                      
                                                                        
             <hr>
             <h2 style="background-color: beige;">
             <p>Please visit us us on our socials 🤙🏽🤙🏽</p>
-            <footer class="footer">
+            <footer>
+               <section class="logo footer">
                 <p style="font-size: medium;"><i class="fa-brands fa-pagelines"></i>African Goodness</p>
+                </section>
+               <section class="icon-container">
+
                 <p><a target="_blank" href="https://facebook.com"><i class="fa-brands fa-facebook"></i></p>
                   <p><a target="_blank" href="https://instagram.com"><i class="fa-brands fa-instagram"></i></p> 
                   <p><a target="_blank" href="https://youtube.com"><i class="fa-brands fa-youtube"></i></p>
                   <p><a target="_blank" href="https://twitter.com"><i class="fa-brands fa-x-twitter"></i></p>
                   <p><a target="_blank" href="http://linkedin.com"><i class="fa-brands fa-linkedin-in"></i></p>
                   <p><a target="_blank" href="http://tiktok.com"><i class="fa-brands fa-tiktok"></i></p>
+                  </section>
                   
 
                 
