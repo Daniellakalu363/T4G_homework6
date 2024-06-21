@@ -77,6 +77,89 @@
             display: inline-block;
             justify-content: flex-end;
          }
+         *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            line-height: 1.5;
+            font-family: Poppins, sans-serif;
+
+         }
+         body{
+            width: 100%;
+            min-height: 100vh;
+            background-color: #ddd;
+         }
+         .about-us{
+            width: 100%;
+         }
+         .about-us h1{
+            text-align: center;
+            font-size: 40px;
+            color: #2b9ec2;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-top: 50px;
+
+
+         }
+         .about-us::after{
+            content: "";
+            height: 5px;
+            width: 200px;
+            background-color: #2b9ec2;
+            border-radius: 10px;
+            display: block;
+            margin: auto;
+         }
+         .wrapper{
+            padding: 0px 60px;
+            margin: 60px auto;
+         }
+         .content{
+            width: 60%;
+            float: left;
+            text-align: left;
+            padding: 0px 30px;
+         }
+         .content h3{
+            color: #222;
+            letter-spacing: 1px;
+         }
+         .content p{
+            font-family: sans-serif;
+            font-size: 18px;
+            color: #3d3d3d;
+            margin-top: 20px;
+         }
+         .content button{
+            margin-top: 30px;
+         
+         }
+         .content .button a{
+            color: #fff;
+            background-color: #2b9ec2;
+            border: 1px solid #2b9ec2;
+            padding: 10px 20px;
+            text-decoration: none;
+            letter-spacing: 1px;
+            font-size: 20px;
+            text-transform: uppercase;
+            
+         }
+         .content .button a:hover{
+            background-color: #fff;
+            color: #2b9ec2;
+         }
+         .image-section{
+            width: 40%;
+            float: right;
+            padding: 0px 30px;
+         }
+         .image-section img{
+            max-width: 100%;
+         }
+       
     </style>
 </head>
 <body>
@@ -93,6 +176,43 @@
             <li class="iteams"><a href="contact.html">Contact</a></li>
             <li class="iteams"><a href="login.html "></i>Login</a></li>
             <li class="iteams"><a href="signup Page.html">signup</a></li>
+           <section>
+            <div class="about-us">
+               <h1>About Us</h1>
+               <div class="wrapper">
+                  <div class="content">
+                     <h3>World Food Programme</h3>
+                     <p>The World Food Programme (WFP) is the largest humanitarian organization within the United Nations, providing food assistance to over 152 million people in 120 countries and territories. 
+                        Our mission is to save lives during emergencies and use foods aid to create a path towards peace, stability and
+                        prosperity for those recovering from conflict, disasters and the impact of climate change.</p>
+                        <div class="button">
+                           <a href="">Read more</a>
+                        </div>
+                        </div>
+                        <div class="image-section">
+                           <img src="https://th.bing.com/th/id/R.9b22dfd7a8bc44107dce72385b8b0769?rik=B8F7BcMbPJDpjg&pid=ImgRaw&r=0" alt="">
+
+                        </div>
+
+                  </div>
+
+               </div>
+
+            </div>
+           </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
         </ul>
     </nav>
 
