@@ -110,6 +110,8 @@
         }
         body{
             background: rgb(236, 235, 235);
+            padding: 0%;
+            margin: 0%;
         }
         .social-icons ul{
             position: absolute;
@@ -132,10 +134,14 @@
         .social-icons ul li a:hover{
             color: aliceblue;
 
-        }
-        body{
-            padding: 0%;
-            margin: 0%;
+         }
+         .icon-container{
+            display: inline-flex;
+            margin-right: 70px;
+            align-items: center;
+            background-color: beige;
+            letter-spacing: 100px;
+            justify-content: center;
 
          }
          nav{
@@ -160,32 +166,36 @@
          nav a{
             text-decoration: none;
             color: blueviolet;
-        }
+
+         }
          nav :hover{
            color: black;
          }
          .icon-container{
             display: inline-flex;
-            margin-right: 70px;
+            margin-right: 20px;
             align-items: center;
             background-color: beige;
-            letter-spacing: 100px;
+            letter-spacing: 70px;
             justify-content: center;
-
+            
+            
          }
          .logo img{
             width: 200px;
             height: 50pt;
             left: 50px;
             position: absolute;
-            top: 0px;
+            top: 3px;
             border-radius: 50%;
             justify-content: flex-end;
-        }
+            margin: 0%;
+
+            
+         }
          .container{
             list-style: none;
             display: flex;
-            
             
 
          }
@@ -205,13 +215,14 @@
 </head>
 <body>
     <nav>
-        <ul class="container">
+        <ul>
+            <section class="container">
             <section class="logo img">
-               <img src="https://th.bing.com/th/id/OIP.DmYfglfLQV2KTu-LQFjSAQHaHa?rs=1&pid=ImgDetMain" alt="">
+               <h1 style="color: black; border: 3px solid dee;">African Goodness <i class="fa-brands fa-pagelines"></i></h1>
          </section>
             <li class="iteams"><a href="../index.html">Home</a></li>
             <li class="iteams"><a href="product.html">Product</a></li>
-            <li class="iteams"><a href="About Us.html">About Us</a></li>
+            <li class="iteams"><a href="About Us.html">AboutUs</a></li>
             <li class="iteams"><a href="contact.html">Contact</a></li>
             <li class="iteams"><a href="login.html" >Login </a></li>
             <li class="iteams"><a href="signup Page.html">signup</a></li>
@@ -224,7 +235,7 @@
         <div class="contentbx">
             <div class="formbx">
                 <h2>Log in to African Food Products</h2>
-                <form>
+                <form action="">
                     <div class="inputbx">
                         <span>Email</span>
                         <input type="text" name="" placeholder="email">
@@ -240,15 +251,14 @@
             <label> <input type="checkbox" name="">Keep me logged in</label >
         </div>
         <div class="inputbx">
-            <input type="submit" value="Submit" name="" style="margin-bottom: 20px;">
+            <input  type="submit" value="Submit">
         </div>
         <div class="inputbx">
             <p style="text-align: center; margin-bottom: 20px;">Don`t have an account?<a href="#">Submit</a></p>
 
            <h3><a href="signup Page.html" style="justify-content: center; text-decoration: line; color: darkgreen; font-weight: lighter; margin-bottom: 20px; display: block;">Create a free account</a></h3>
-
-        </div>
         </form>
+        </div>
     </section>
     
     
@@ -262,7 +272,7 @@
     
     <hr>
     <h2>
-    <p>Please visit us us on our socials 🤙🏽🤙🏽</p>
+    <p>Please visit us on our socials 🤙🏽🤙🏽</p>
     <footer>
        <section class="logo footer">
         <p style="font-size: medium;"><i class="fa-brands fa-pagelines"></i>African Goodness</p>
