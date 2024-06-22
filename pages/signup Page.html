@@ -34,6 +34,8 @@
         body{
             padding: 0%;
             margin: 0%;
+            background-color: beige;
+            font-family: Roboto, sans-serif;
 
          }
          nav{
@@ -99,6 +101,43 @@
             display: inline-block;
             justify-content: flex-end;
          }
+         .signup-box{
+            width: 360px;
+            height: 620px;
+            margin: auto;
+            background-color: white;
+            border-radius: 3px;
+         }
+         h1{
+            text-align: center;
+            padding-top: 15px;
+         }
+         form{
+            width: 300px;
+            margin-left: 20px;
+
+
+         }
+         form label{
+            display: flex;
+            margin-top: 20px;
+            font-size: 18px
+         }
+         .form input{
+            width: 100%;
+            padding: 7px;
+            border: none;
+            border: 1px solid gray;
+            border-radius: 6px;
+            outline: none;
+         }
+         input[ type="button"] {
+            width: 320px;
+            height: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color: #49c1a2;
+         }
         
     </style>
     
@@ -110,49 +149,47 @@
                <img src="https://th.bing.com/th/id/OIP.DmYfglfLQV2KTu-LQFjSAQHaHa?rs=1&pid=ImgDetMain" alt="">
          </section>
         <ul>
-            <li class="iteams"><a href="../index.html">home</a></li>
-            <li class="iteams"><a href="../pages/product.html">product</a></li>
+            <li class="iteams"><a href="../index.html">Home</a></li>
+            <li class="iteams"><a href="../pages/product.html">Product</a></li>
             <li class="iteams"><a href="About Us.html">About Us</a></li>
-            <li class="iteams"><a href="../pages/contact.html">contact</a></li>
-            <li class="iteams"><a href="login.html">login</a></li>
+            <li class="iteams"><a href="../pages/contact.html">Contact</a></li>
+            <li class="iteams"><a href="login.html">Login</a></li>
             <li class="iteams"><a href="signup Page.html">signup page</a></li>
         </ul>
     </nav>
+    <div class="signup-box">
     <h1>Signup Page</h1>
-        <div>
+
+    <div class="whole">
             <form>
+
             <label for="Name">First name</label>
             <input type="type your name here" placeholder="Name">
-            </form>
-        </div>
-        <div>
+
             <label for="Name">Last Name</label>
             <input type="type your last name here" placeholder="Last name">
-        </div>
-        <div>
+
             <label for="Telephone">Telephone</label>
             <input type="type your telephone here" placeholder="Tele">
-        </div>
-        <div>
+
             <label for="Email">Email</label>
             <input type="type your email here" placeholder="Email">
-        </div>
-        <div>
+
 
             <label for="Age">Age</label>
             <input type="type your Age here" placeholder="Age">
-        </div>
-        <div>
-            <label for="Password">Password</label>
-            <input type="type your Password here" placeholder="Password">
-        </div>
-        <div>
+
             <label for="Date of Birth "> Date of Birth</label>
             <input type="type your date of birth">
-        </div>
-    </form>
 
-    <button>Submit</button>
+            Gender <label> <input type="checkbox" name="">Male</label>  <label> <input type="checkbox" name="">Female</label>
+
+            <label for="Password">Password</label>
+            <input type="type your Password here" placeholder="Password">
+
+    <input type="button" value="Submit">
+</form>
+</div>
 
 
 
