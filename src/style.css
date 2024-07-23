@@ -1,0 +1,15 @@
+#photo{
+    margin-left: 200px;
+}
+
+.jak{
+    background-image: url(../image/image1.jpg);
+    background-size: cover;
+    height: 200px;
+    width: 400px;
+    margin-right: 400px;
+}
+#head{
+    display: flex;
+    justify-content: center;
+}
