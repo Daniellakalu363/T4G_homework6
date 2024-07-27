@@ -103,7 +103,7 @@
          }
          .signup-box{
             width: 360px;
-            height: 630px;
+            height: 635px;
             margin: auto;
             background-color: white;
             border-radius: 1px;
@@ -139,6 +139,28 @@
             border: none;
             background-color: #49c1a2;
          }
+         .btn{
+            width: 100%;
+            padding: 0.5rem 1rem;
+            font-size: 1.1rem;
+            background-color: #2ecc71;
+            cursor: pointer;
+            outline: none;
+            border: none;
+            transition: 3s;
+            color: #fff;
+         }
+         .btn:hover{
+            background-color: #fff;
+            color: #2ecc71;
+            border: 2px solid #2ecc71;
+         }
+         .required::after{
+            content: "*";
+            color: #eb0505;
+            font-size: 20px;
+         }
+ 
         
     </style>
     
@@ -161,34 +183,38 @@
      <div class="signup-box">
     <h1>Signup Page</h1>
 
-    <div class="whole">
+    <div id="signup-form" class="whole">
             <form>
 
-            <label for="Name">First name</label>
-            <input type="type your name here" placeholder="Name">
+         
+               <div class="input-box">
+                  <span class="icon"></span>
+         <label class="required" for="Name">First name</label>
+            <input id="signup-form" type="type your name here" placeholder="Name">
+            </div>
 
-            <label for="Name">Last Name</label>
+            <label class="required" for="Name">Last Name</label>
             <input type="type your last name here" placeholder="Last name">
 
-            <label for="Telephone">Telephone</label>
+            <label class="required" for="Telephone">Telephone</label>
             <input type="type your telephone here" placeholder="Tele">
 
-            <label for="Email">Email</label>
-            <input type="type your email here" placeholder="Email">
+            <label class="required" for="Email">Email</label>
+            <input id="email" type="type your email here" placeholder="Email">
 
 
             <label for="Age">Age</label>
             <input type="type your Age here" placeholder="Age">
 
-            <label for="Date of Birth "> Date of Birth</label>
+            <label class="required" for="Date of Birth "> Date of Birth</label>
             <input type="type your date of birth">
 
           <label for="Gender">Gender</label> 
             <label> <input type="checkbox" name="">Male</label>  <label> <input type="checkbox" name="">Female</label>
-            <label for="Password">Password</label>
-            <input type="type your password here" placeholder="Password">
+            <label class="required" for="Password">Password</label>
+            <input id="password" type="type your password here" placeholder="Password">
 
-            <input type="button" value="Submit">
+            <input  class="btn" type="submit" value="Submit">
             <p>Please visit us on our socials 🤙🏽🤙🏽</p>
             <footer>
                <section class="logo footer">

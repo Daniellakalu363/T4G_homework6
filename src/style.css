@@ -1,5 +1,5 @@
-#photo{
-    margin-left: 200px;
+ #photo{
+    /* margin-left: 200px; */
 }
 
 .jak{
@@ -12,4 +12,6 @@
 #head{
     display: flex;
     justify-content: center;
-}
+} 
+
+

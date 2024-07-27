@@ -24,12 +24,12 @@
         padding: 20pt 30pt;
         }
         body{
-            background: rgb(30, 180, 123);
+            /* background: rgb(30, 180, 123); */
         }
         button{
            background-color: aliceblue;
            font-size: 13px;
-           color: aliceblue; 
+           color: black; 
            margin: 20px;;  
            text-decoration: aliceblue;
            border-radius: 20p;
@@ -37,14 +37,21 @@
            text-align: center;
         }
             
-      
-         span{
+      img{
+         width: 100%;
+      }
+         /* span{
             padding-left: 435px;
-        color:rgb(97,95,95);
-         }
+        color:rgb(97,95,95); */
+         /* } */
          body{
             padding: 0%;
             margin: 0%;
+            background-image: url(https://images.creativemarket.com/0.1.0/ps/1719331/1360/906/m1/fpnw/wm1/bs9p5lssaswry3obftivnqdztpkvr75lmmui643lgelnk0wxm8xxne9ddozyrte0-.jpg?1&s=4ee69a79e4303040656dac0805b4abee);
+            background-size: cover;
+            background-position: center;
+            background-repeat:no-repeat ;
+            background-attachment: fixed;
 
          }
          nav{
@@ -113,6 +120,7 @@
             display: flex;
             flex-wrap:wrap ;
             justify-content: space-between;
+            width: 100%;
          }
          .small-image{
          width: 30%;
@@ -136,7 +144,8 @@
             text-align: left;
          }
          .form{
-            background-color: aqua;
+            /* background-image: url(https://visittrivalley.com/wp-content/uploads/2015/03/wine-landscape-1-1.png);
+            background-size: cover; */
             color: black;
             padding: 10pt 10pt;
             margin: 10px;
@@ -147,6 +156,26 @@
          .signup{
             text-align: center;
          }
+         #photo{
+            display: none;
+            gap: 10px;
+         }
+         .less{
+            display: none;
+            margin-left: 500px;
+         }
+         #extra{
+            margin-left: 500px;
+         }
+         .diff-image{
+            width: 100%;
+         
+            display: flex;
+            flex-wrap:wrap ;
+            justify-content: space-between;
+            width: 100%;
+         }
+
          
     
     </style>
@@ -234,29 +263,31 @@
             <img id="sixthid" src="https://image.freepik.com/free-photo/root-crops-carrots-parsley-root-turnip-onion-garlic-jerusalem-artichoke-horseradish-root-crops-background_121234-88.jpg"width=400 alt="">
             <h3 style="font-style: oblique;">African Tubers</h3>
             </section>
-
+               </section>
             <section>
                <button class="seprate" id="extra">Click to Show More</button>
                </section>
 
-               <!-- Another section containing images -->
-                <!-- <section id="photo" class="diff-image">
+                <!--Another section containing images-->
+                 <section id="photo" class="diff-image">
             <section class="small-image">
-            <img id="seven id" src="https://i.pinimg.com/originals/63/42/7a/63427ae68ce7daec706d02839121693d.jpg"width=400 alt="">
+            <img id="seven id" src="https://i.pinimg.com/originals/63/42/7a/63427ae68ce7daec706d02839121693d.jpg"width=500 alt="">
             <h3 style="font-style: oblique;">African Barley</h3>
             </section>
             <section class="small-image">
-            <img id="eight id" src="https://www.sandeepmann.com/wp-content/uploads/2016/01/5219256862_7baaeb4a60_b.jpg"width=400 alt="">
+            <img id="eight id" src="https://www.sandeepmann.com/wp-content/uploads/2016/01/5219256862_7baaeb4a60_b.jpg"width=500 alt="">
             <h3 style="font-style: oblique;">African Maize</h3>
             </section>
             <section class="small-image">
-            <img id="nine id" src="https://thegirdedmind.org/wp-content/uploads/2015/08/680c2-dollarphotoclub_67577369.jpg" width=400 alt="">
+            <img id="nine id" src="https://thegirdedmind.org/wp-content/uploads/2015/08/680c2-dollarphotoclub_67577369.jpg" width=500 alt="">
             <h3 style="font-style: oblique;">African Wheat</h3>
             </section>
-            </section>
+                 </section>
+            <section>
             <button class="less" id="Showless">Show less</button>
             </section>
-            </section> -->
+            
+            
             <section class="newsletter">
             <section><h2>NEWSLETTER</h2>
             Would you like to recieve monthly information about our products and services?
