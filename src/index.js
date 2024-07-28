@@ -8,13 +8,13 @@ function changeColor(){
         head.style.cursor="pointer";
         head.innerHTML=`👋👋Hi there Welcome to African Choice`;
         let browse=document.getElementById("browse");
-        browse.innerHTML=`Welcome there Taste The Raw Goodness Of Africa`;
+        browse.innerHTML=`Welcome there Taste The Raw Goodness Of Africa `;
       
     } else {
     head.style.cursor="pointer";
     head.innerHTML=`👋👋Hi ${name} Welcome to African Choice`;
     let browse=document.getElementById("browse");
-    browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa`;
+    browse.innerHTML=`Welcome ${name} Taste The Raw Goodness Of Africa 😊❤👏`;
 }
 }
 letlinking=document.getElementById("linking");
