@@ -42,6 +42,7 @@
 .readmore{
     color:rgba(73, 58, 209, 0.849);
     font-size: 12pt;
+    background-color: aliceblue;
 
 }
 .readmore:hover{
