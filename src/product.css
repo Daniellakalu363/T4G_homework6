@@ -43,18 +43,23 @@
     color:rgba(73, 58, 209, 0.849);
     font-size: 12pt;
     background-color: aliceblue;
+    border-radius: 6px;
 
 }
 .readmore:hover{
     text-decoration: underline;
 }
-.readless{
+.Readless{
     color:rgba(73, 58, 209, 0.849);
     font-size: 12pt;
     display: none;
+    background-color: aliceblue;
 }
 .readless:hover{
     text-decoration: underline;
+    color:rgba(73, 58, 209, 0.849) ;
+    background-color: aliceblue;
+    border-radius: 6px;
 }
 #fresh{
     display: none;

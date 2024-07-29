@@ -130,8 +130,8 @@ vanishseven.addEventListener("click",hideTextseven);
 //Yam Readmore
 function showOne(){
     let old=document.getElementById("old");
-old.style.display="inline";
-    let hidetwo =document.getElementById("readtwo");
+    old.style.display="inline";
+    let hidetwo=document.getElementById("readtwo");
     hidetwo.style.display="none";
     let readlessone=document.getElementById("lessone");
     readlessone.style.display("block");
@@ -142,13 +142,15 @@ paraOne.addEventListener("click",showOne);
 
 //showless
 function hideTextOne(){
-    let textVanishOne=document.getElementById("old");
-    textVanishOne.style.display="none";
+    let textVanishone=document.getElementById("old");
+    textVanishone.style.display="none";
+    textVanishone.style.backgroundColor="white";
     let rerevealone=document.getElementById("readtwo");
     rerevealone.style.display="flex";
     let buttonVanishone=document.getElementById("lessone");
     buttonVanishone.style.display="none";
+    textVanishone.style.backgroundColor="white";
 }
-let vanishone=document.getElementById("lessone");
+let vanishone =document.getElementById("lessone");
 vanishone.addEventListener("click",hideTextOne);
 

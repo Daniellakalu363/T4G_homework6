@@ -106,6 +106,7 @@
             height: 620px;
             margin: auto;
             background: transparent;
+            backdrop-filter: blur(50px);
             box-shadow: 0 0 3px rgba(0, 0, 0, .5);
              /* background-color: white;  */
             border-radius: 1px;
@@ -192,29 +193,29 @@
                <div class="input-box">
                   <span class="icon"></span>
          <label class="required" for="Name">First name</label>
-            <input id="signup-form" type="type your name here" placeholder="Name">
+            <input id="signup-form" type="type your name here" placeholder="Name" required>
             </div>
 
             <label class="required" for="Name">Last Name</label>
-            <input type="type your last name here" placeholder="Last name">
+            <input type="type your last name here" placeholder="Last name" required>
 
             <label class="required" for="Telephone">Telephone</label>
-            <input type="type your telephone here" placeholder="Tele">
+            <input type="type your telephone here" placeholder="Tele" required>
 
             <label class="required" for="Email">Email</label>
-            <input id="email" type="type your email here" placeholder="Email">
+            <input id="email" type="type your email here" placeholder="Email" required>
 
 
             <!-- <label for="Age">Age</label>
             <input type="type your Age here" placeholder="Age"> -->
 
             <label class="required" for="Date of Birth "> Date of Birth</label>
-            <input type="type your date of birth">
+            <input type="type your date of birth" required>
 
           <label for="Gender">Gender</label> 
             <label> <input type="checkbox" name="">Male</label>  <label> <input type="checkbox" name="">Female</label>
             <label class="required" for="Password">Password</label>
-            <input id="password" type="type your password here" placeholder="Password">
+            <input id="password" type="type your password here" placeholder="Password" required>
 
 
             
