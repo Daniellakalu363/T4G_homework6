@@ -128,29 +128,27 @@ vanishseven.addEventListener("click",hideTextseven);
 
 
 //Yam Readmore
-function showOne(){
-    let old=document.getElementById("old");
-    old.style.display="inline";
-    let hidetwo=document.getElementById("readtwo");
-    hidetwo.style.display="none";
-    let readlessone=document.getElementById("lessone");
-    readlessone.style.display("block");
+function showSix(){
+    let brukina=document.getElementById("brukina");
+    brukina.style.display="inline";
+    let hidesix=document.getElementById("readsix");
+    hidesix.style.display="none";
+    let readlessfive=document.getElementById("lessfive");
+    readlessfive.style.display("block");
 
 }
-let paraOne =document.getElementById("readtwo");
-paraOne.addEventListener("click",showOne);
+let paraFive =document.getElementById("readsix");
+paraFive.addEventListener("click",showSix);
 
 //showless
-function hideTextOne(){
-    let textVanishone=document.getElementById("old");
-    textVanishone.style.display="none";
-    textVanishone.style.backgroundColor="white";
-    let rerevealone=document.getElementById("readtwo");
-    rerevealone.style.display="flex";
-    let buttonVanishone=document.getElementById("lessone");
-    buttonVanishone.style.display="none";
-    textVanishone.style.backgroundColor="white";
+function hideTextfive(){
+    let textVanishfive=document.getElementById("brukina");
+    textVanishfive.style.display="none";
+    let rerevealfive=document.getElementById("readsix");
+    rerevealfive.style.display="flex";
+    let buttonVanishfive=document.getElementById("lessfive");
+    buttonVanishfive.style.display="none";
 }
-let vanishone =document.getElementById("lessone");
-vanishone.addEventListener("click",hideTextOne);
+let vanishfive =document.getElementById("lessfive");
+vanishfive.addEventListener("click",hideTextfive);
 
